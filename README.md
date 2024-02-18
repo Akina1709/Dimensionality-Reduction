@@ -4,6 +4,7 @@
 **1. Utilizing Masking and Padding:**
 - **Masking**: Ignore certain timesteps in the input sequence during model training.
 - **Padding**: Add zeros or a specific value to sequences to make them uniform in length.
+  
 **2. Feature Extraction Methods:**
 Extract statistical features from the time series data such as mean, standard deviation, maximum, minimum, skewness, kurtosis, etc.
 
