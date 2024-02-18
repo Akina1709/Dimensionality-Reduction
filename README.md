@@ -1,11 +1,13 @@
-# Preprocessing Time Series Data:
+# Time Series Clustering
+
+## Preprocessing Time Series Data:
 **1. Utilizing Masking and Padding:**
 - **Masking**: Ignore certain timesteps in the input sequence during model training.
 - **Padding**: Add zeros or a specific value to sequences to make them uniform in length.
 **2. Feature Extraction Methods:**
 Extract statistical features from the time series data such as mean, standard deviation, maximum, minimum, skewness, kurtosis, etc.
 
-# Dimensionality Reduction:
+## Dimensionality Reduction:
 **1. Principal Component Analysis (PCA):**
 Linear technique aiming to find directions (principal components) that maximize data variance.
 
@@ -21,8 +23,8 @@ Neural network architecture learning to reconstruct input data from a compressed
 **5. Independent Component Analysis (ICA):**
 Statistical technique separating multivariate signal into additive, independent components.
 
-# Analyzing Activities of Daily Living (ADL) using K-means:
-## K-means Algorithm:
+## Analyzing Activities of Daily Living (ADL) using K-means:
+### K-means Algorithm:
 Clustering algorithm partitioning data into 'k' clusters based on similarity of features.
 Assigns each data point to the cluster whose mean is nearest.
 Useful for identifying patterns and grouping similar activities based on extracted features or reduced representations.
